@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=()
+plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -59,6 +59,8 @@ function in {
 
 # Helpful aliases
 alias c='clear' # clear terminal
+alias n='nvim' # open nvim
+alias t='tmux' # open tmux
 alias l='eza -lh --icons=auto' # long list
 alias ls='eza -1 --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
@@ -86,3 +88,12 @@ alias mkdir='mkdir -p'
 
 # Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
+
+. "$HOME/.local/bin/env"
+
+# bun completions
+[ -s "/home/esu/.bun/_bun" ] && source "/home/esu/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
