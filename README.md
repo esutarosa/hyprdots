@@ -1,2 +1,2 @@
-# hyprdots
-Minimal hyprland dotfiles for Arch Linux 
+# Hyprdots
+Minimal hyprland dotfiles for Arch 
