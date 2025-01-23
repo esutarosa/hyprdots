@@ -35,6 +35,12 @@ require("lazy").setup({
         },
       },
     },
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      lazy = false,
+      priority = 1000,
+    },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
