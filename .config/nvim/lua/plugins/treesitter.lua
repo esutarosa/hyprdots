@@ -23,6 +23,8 @@ return {
         "gosum",
         "vue",
         "dockerfile",
+        "prisma",
+        "astro",
       },
       query_linter = {
         enable = true,
