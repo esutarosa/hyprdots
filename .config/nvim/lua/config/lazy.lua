@@ -28,18 +28,13 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
+      colorscheme = "catppuccin-mocha",
       opts = {
         news = {
           lazyvim = true,
           neovim = true,
         },
       },
-    },
-    {
-      "catppuccin/nvim",
-      name = "catppuccin",
-      lazy = false,
-      priority = 1000,
     },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
