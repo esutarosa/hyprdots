@@ -1,2 +1,2 @@
 # Dotfiles
-Mu Arch Linux .dotfiles
+Mu .dotfiles
