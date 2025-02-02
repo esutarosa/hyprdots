@@ -1,2 +1,2 @@
-# Hyprdots
+# Dotfiles
 Mu Arch Linux .dotfiles
