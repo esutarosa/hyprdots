@@ -1,5 +1,5 @@
 # Dotfiles
-My .dotfilesSome fine day I'll get round to decorating this repository and getting my dotfiles in order
+My .dotfiles
 
 OS: Arch Linux <br/>
 WM: Hyprland
